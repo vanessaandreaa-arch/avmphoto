@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="utf-8">
+<title>AVM GALÉRIA</title>
+<link rel="icon" type="image/png" href="obrazky/logo.png">
+<link href="styly.css" rel="stylesheet" media="all">
+<link href="styly_mensie.css" rel="stylesheet" media="screen and (max-width: 1020px)">
+</head>
+
+<body>
+
+<header>
+    <h1>AVM PHOTO</h1>
+</header>
+
+<nav>
+<a href="index.html">INDEX</a> 
+<a href="galeria.html">GALÉRIA</a> 
+<a href="cennik.html">CENNÍK</a>
+</nav>
+
+<section>
+<h2>GALÉRIA</h2>
+<p>Tu nájdete výber mojich fotografií:</p>
+	<div class="foto"><img src="obrazky/o1.JPG" alt="foto1"></div>
+	<div class="foto"><img src="obrazky/o2.JPG" alt="foto2"></div>
+	<div class="foto"><img src="obrazky/o3.JPG" alt="foto3"></div>
+    <div class="foto"><img src="obrazky/o4.JPG" alt="foto4"></div>
+    <div class="foto"><img src="obrazky/o5.JPG" alt="foto5"></div>
+    <div class="foto"><img src="obrazky/o6.JPG" alt="foto6"></div>  
+    <div class="foto"><img src="obrazky/o7.JPG" alt="foto7"></div>
+	<div class="foto"><img src="obrazky/o8.JPG" alt="foto8"></div>
+	<div class="foto"><img src="obrazky/o9.JPG" alt="foto9"></div>
+    <div class="foto"><img src="obrazky/o10.JPG" alt="foto10"></div>
+    <div class="foto"><img src="obrazky/o11.JPG" alt="foto11"></div>
+    <div class="foto"><img src="obrazky/o12.JPG" alt="foto12"></div>
+    <div class="foto"><img src="obrazky/o13.JPG" alt="foto13"></div>
+	<div class="foto"><img src="obrazky/o14.JPG" alt="foto14"></div>
+	<div class="foto"><img src="obrazky/o15.JPG" alt="foto15"></div>
+    <div class="foto"><img src="obrazky/o16.JPG" alt="foto16"></div>
+    <div class="foto"><img src="obrazky/o17.JPG" alt="foto17"></div>
+    <div class="foto"><img src="obrazky/o18.JPG" alt="foto18"></div>  
+<div class="clear"></div>
+</section>
+
+<aside>
+<h2>KONTAKT</h2>
+<p>e-mail: <a href="mailto:andrea.vanessza@gmail.com">andrea.vanessza@gmail.com</a></p>
+<h3>SLEDUJ MA NA INSTAGRAME:</h3>
+<p><a href="https://www.instagram.com/_andreavanessaa/">@_andreavanessaa</a></p>
+
+<div id="reklama">
+    <h3>JARNÁ AKCIA!</h3>
+    <p>Portré fotenie so zľavou 20 %.<br>
+    Platí do 31. 5.</p>
+    <a href="mailto:andrea.vanessza@gmail.com">Objednať sa</a>
+</div>
+</aside>
+
+<section>
+<h2>Objednávka</h2>
+<form method="post">
+<fieldset>
+	<legend>Kontaktné údaje</legend>
+	<label for="meno">Meno a priezvisko:</label> <input type="text" name="meno" id="meno" size="15" required><br>
+	<label for="email">E-mail:</label> <input type="email" name="email" id="email" size="15" required>
+</fieldset>
+<fieldset>
+    <legend>Tovar</legend>
+	<label for="foto">Vyberte fotografiu:</label><br>
+    <select id="foto" name="foto" required>
+        <option value="">Foto</option>
+        <option value="foto1">Foto 1</option>
+        <option value="foto2">Foto 2</option>
+        <option value="foto3">Foto 3</option>
+        <option value="foto4">Foto 4</option>
+        <option value="foto5">Foto 5</option>
+        <option value="foto6">Foto 6</option>
+        <option value="foto7">Foto 7</option>
+        <option value="foto8">Foto 8</option>
+        <option value="foto9">Foto 9</option>
+        <option value="foto10">Foto 10</option>
+        <option value="foto11">Foto 11</option>
+        <option value="foto12">Foto 12</option>
+        <option value="foto13">Foto 13</option>
+        <option value="foto14">Foto 14</option>
+        <option value="foto15">Foto 15</option>
+        <option value="foto16">Foto 16</option>
+        <option value="foto17">Foto 17</option>
+        <option value="foto18">Foto 18</option>
+    </select><br><br>
+	<label for="velkost">Vyberte veľkosť:</label><br>
+	<select name="velkost" id="velkost" required>
+        <option value="">Veľkosť</option>
+		<option value="10x15">10x15 cm</option>
+		<option value="15x23">15x23 cm</option>
+		<option value="20x30">20x30 cm</option>
+		<option value="30x45">30x45 cm</option>
+	</select><br><br>
+</fieldset>
+<fieldset>
+    <legend>Doprava</legend>
+Vyberte spôsob doručenia:<br>
+    <input type="radio" name="doprava" id="doprava_packeta" value="packeta" checked required> <label for="doprava_packeta">packeta</label>
+    <input type="radio" name="doprava" id="doprava_balikobox" value="balikobox"> <label for="doprava_balikobox">balíkobox</label>
+    <input type="radio" name="doprava" id="doprava_kurier" value="kurier"> <label for="doprava_kurier">kuriér</label>
+    <input type="radio" name="doprava" id="doprava_osobne" value="osobne"> <label for="doprava_osobne">osobný odber</label>
+</fieldset>
+<input type="submit">
+</form>
+</section>
+
+<footer>
+<p>vytvoril: <em>Vanessza Mikula</em></p>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,11 @@
+header, footer, nav, aside, section {
+    width: 100%;
+    float: none;
+    display: block;
+    margin: 1px;
+    clear: both;
+}
+
+h1 {
+    font-size: 2em;
+}

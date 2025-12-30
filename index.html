@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="utf-8">
+<title>AVM PHOTO</title>
+<link rel="icon" type="image/png" href="obrazky/logo.png">
+<link href="styly.css" rel="stylesheet" media="all">
+<link href="styly_mensie.css" rel="stylesheet" media="screen and (max-width: 1020px)">
+</head>
+
+<body>
+
+<header>
+    <h1>AVM PHOTO</h1>
+</header>
+
+<nav>
+<a href="index.html">INDEX</a> 
+<a href="galeria.html">GALÉRIA</a> 
+<a href="cennik.html">CENNÍK</a>
+</nav>
+
+<section>
+<h2>Vitajte na mojej stránke!</h2>
+<p>Volám sa Andrea Vanessza Mikula a som študentkou 3. ročníka bakalárskeho štúdia učiteľstva matematiky a informatiky na FMFI UK. 
+Mám 21 rokov a hoci sa v rámci štúdia venujem najmä presným vedám, mojou veľkou vášňou je fotografia.</p>
+<p>
+Fotografii sa venujem už niekoľko rokov a vnímam ju ako spôsob, ako sa na chvíľu zastaviť a pozorovať svet okolo seba.
+Najradšej fotografujem:
+</p>
+<ul>
+    <li>talianske mestá</li>
+    <li>more</li>
+    <li>západy slnka</li>
+    <li>mesiac</li>
+    <li>hory</li>
+</ul>
+<p>
+Tieto motívy ma oslovujú svojou atmosférou, svetlom a jedinečným charakterom.
+Prostredníctvom svojich fotografií sa snažím zachytiť emóciu okamihu a preniesť ju aj na diváka.</p>
+<p>Na tejto stránke nájdete výber mojich fotografií, ktoré ponúkam na predaj. 
+Verím, že si medzi nimi nájdete snímku, ktorá Vás osloví a stane sa súčasťou Vášho priestoru. 
+Ak Vás moja tvorba zaujme, budem rada, ak sa stanete súčasťou mojej fotografickej cesty.</p>
+</section>
+
+<aside>
+<h2>KONTAKT</h2>
+<p>e-mail: <a href="mailto:andrea.vanessza@gmail.com">andrea.vanessza@gmail.com</a></p>
+<h3>SLEDUJ MA NA INSTAGRAME:</h3>
+<p><a href="https://www.instagram.com/_andreavanessaa/">@_andreavanessaa</a></p>
+
+<div id="reklama">
+    <h3>JARNÁ AKCIA!</h3>
+    <p>Portré fotenie so zľavou 20 %.<br>
+    Platí do 31. 5.</p>
+    <a href="mailto:andrea.vanessza@gmail.com">Objednať sa</a>
+</div>
+</aside>
+
+<section>
+<h2>Objednávka</h2>
+<form method="post">
+<fieldset>
+	<legend>Kontaktné údaje</legend>
+	<label for="meno">Meno a priezvisko:</label> <input type="text" name="meno" id="meno" size="15" required><br>
+	<label for="email">E-mail:</label> <input type="email" name="email" id="email" size="15" required>
+</fieldset>
+<fieldset>
+    <legend>Tovar</legend>
+	<label for="foto">Vyberte fotografiu:</label><br>
+    <select id="foto" name="foto" required>
+        <option value="">Foto</option>
+        <option value="foto1">Foto 1</option>
+        <option value="foto2">Foto 2</option>
+        <option value="foto3">Foto 3</option>
+        <option value="foto4">Foto 4</option>
+        <option value="foto5">Foto 5</option>
+        <option value="foto6">Foto 6</option>
+        <option value="foto7">Foto 7</option>
+        <option value="foto8">Foto 8</option>
+        <option value="foto9">Foto 9</option>
+        <option value="foto10">Foto 10</option>
+        <option value="foto11">Foto 11</option>
+        <option value="foto12">Foto 12</option>
+        <option value="foto13">Foto 13</option>
+        <option value="foto14">Foto 14</option>
+        <option value="foto15">Foto 15</option>
+        <option value="foto16">Foto 16</option>
+        <option value="foto17">Foto 17</option>
+        <option value="foto18">Foto 18</option>
+    </select><br><br>
+	<label for="velkost">Vyberte veľkosť:</label><br>
+	<select name="velkost" id="velkost" required>
+        <option value="">Veľkosť</option>
+		<option value="10x15">10x15 cm</option>
+		<option value="15x23">15x23 cm</option>
+		<option value="20x30">20x30 cm</option>
+		<option value="30x45">30x45 cm</option>
+	</select><br><br>
+</fieldset>
+<fieldset>
+    <legend>Doprava</legend>
+Vyberte spôsob doručenia:<br>
+    <input type="radio" name="doprava" id="doprava_packeta" value="packeta" checked required> <label for="doprava_packeta">packeta</label>
+    <input type="radio" name="doprava" id="doprava_balikobox" value="balikobox"> <label for="doprava_balikobox">balíkobox</label>
+    <input type="radio" name="doprava" id="doprava_kurier" value="kurier"> <label for="doprava_kurier">kuriér</label>
+    <input type="radio" name="doprava" id="doprava_osobne" value="osobne"> <label for="doprava_osobne">osobný odber</label>
+</fieldset>
+<input type="submit">
+</form>
+</section>
+
+<footer>
+<p>vytvoril: <em>Vanessza Mikula</em></p>
+</footer>
+
+</body>
+</html>
